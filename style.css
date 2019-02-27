@@ -6,6 +6,7 @@ body{
     font-family:arial;
     background-image: url(backgroundLRG.png);
     background-color: #FF4500;
+    background-size: auto;
     color:#fff;
     text-align:center;
 }
