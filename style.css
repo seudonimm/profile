@@ -22,11 +22,36 @@ h2{
     font-weight: bolder;
     color: #79C1FF;
 }
+
+proj{
+    font-family:arial;
+    font-size:40px;
+    margin-top: 280px;
+	margin-left:5px;
+
+	
+}
+
+projBody{
+	font-family:arial;
+    background-image: url(backgroundLRG.png);
+    background-color: #FF4500;
+    background-size: 100%;
+    color:#fff;
+    text-align:left;
+}
+
 .link-item{
     margin-left:10px;
     margin-right:10px;
     display: inline-block;
     color:#9CD1FF;
     text-decoration: underline;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+ul{
+    font-size: 20px;
+    color:#9CD1FF;
+
 }
