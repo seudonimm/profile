@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/rngrpgwebgl.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
